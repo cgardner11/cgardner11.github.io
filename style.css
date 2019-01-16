@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { 
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #545151;
+	background-image: url("images/forest.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+p {
+	margin-left: 50px;
+	margin-right: 50px;
+	line-height: 160%;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	font-size: 16px;
+}
+
+h1 {
+	color: #0871A1;
+	font-size: 37px;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-left: 50px;
+	padding-bottom: 10px;
+}
+
+strong {
+	color: #E39700;
+	font-size: 19px;
+}
+h2 {
+	color: #FFFDFD;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 14px;
+	background-color: #E7C33B;
+	padding-bottom: 15px;
+}
+
+aside p {
+	padding-bottom: 50px;
+	text-align: left;
+}
+#footer p {
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	background-color: #5F2166; 
+	margin: auto;
+	font-size: 12px;
+	color:#FFFFFF;
+	margin-bottom: 160px;
+}	 
+
+img {
+	float: left;
+	padding-right: 30px;
+	width: 200px;
+	height: auto;
+}
+
+.main {
+	background-color: white;
+	box-shadow: 10px 10px 13px rgba(0,0,0,.85);
+	text-overflow: inherit;
+	margin-top: 150px;
+	padding-bottom: 40px;
+ }
+li {
+	font-weight: lighter;
+	padding-bottom: 10px;
+}
+
+ul.a {
+	list-style-type: circle;
+	margin-right: 30px;
+	margin-left: 30px;
+	text-decoration: none;
+	line-height: 150%;
+}
+
+a {
+	color: #D0AF1C;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+footer p, .container {
+	max-width: 980px;
+	margin: 0 auto;
+}
