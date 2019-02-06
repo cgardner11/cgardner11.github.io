@@ -22,8 +22,8 @@ button {
 }
 
 body { 
-  background: url("images/forest.jpg") no-repeat center center fixed;
-	background-size: auto;
+  background: url("images/forest.jpg") no-repeat center center;
+	background-size: cover;
 }
 
 p,li {
@@ -100,8 +100,9 @@ li {
 	font-weight: lighter;
 	padding-bottom: 8px;
 	overflow: scroll;
-	margin-left: 5px;
-	margin-right: 5px;
+margin-left: 0px;
+	margin-right: 10px;
+	
 }
 
 ul.a {
