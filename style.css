@@ -22,7 +22,8 @@ button {
 }
 
 body { 
-  background: url("images/forest.jpg") no-repeat center center fixed; 
+  background: url("images/forest.jpg") no-repeat center center fixed;
+	background-size: cover;
 }
 
 p,li {
