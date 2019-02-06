@@ -5,16 +5,29 @@
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <meta name="description" content="main page for Cathryn Lambiase in CIM 45 class at IVC">
 <link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 				
+$(document).ready(function(){
+  $("button").on('click', function(){
+$("h1").animate({"fontSize": "3.3em",}, 2000 );
+	  $('h1').css ({"color": "green"});
+$("h1").animate({"fontSize": "2.3em",}, 2000 ); 
+		 $("img").css("border","4px solid #cc5500");
+}); 
+}); 
+	</script> 
+	
 </head>
 <body>
-	<div class="container"> 
-<div class="main"> 
+	<div id="container"> 
+<div id="main"> 
 	<h1>CIM 45 | Mobile Web Applications Using HTML and JavaScript</h1>
 	<aside> 
-	<p class=""><img src="images/background.jpg" alt="Cathy"><strong> My Name is Cathy Lambiase</strong> ~ I'm a student, a parent, and a professional graphic designer with a small local design studio. I'm married with two kids in college, love animals-both big and small, the beauty of nature, yoga...and thinking outside the box. I believe we are forever growing and redefining ourselves, and always looking to learn something new, something fun, something that sparks our mind and our spirit...it what makes us unique. On this path to learning, I feel it's important as well that one should also practice kindess, compassion, integrity, and honesty every day, and to always make room in your life for joy and a really good laugh with friends!</p> 
+	<p><img id="border" src="images/background.jpg" alt="Cathy"><strong> My Name is Cathy Lambiase</strong> ~ I'm a student, a parent, and a professional graphic designer with a small local design studio. I'm married with two kids in college, love animals-both big and small, the beauty of nature, yoga...and thinking outside the box. I believe we are forever growing and redefining ourselves, and always looking to learn something new, something fun, something that sparks our mind and our spirit...it what makes us unique. On this path to learning, I feel it's important as well that one should also practice kindess, compassion, integrity, and honesty every day, and to always make room in your life for joy and a really good laugh with friends!</p> 
 	</aside>
-		
-	<p><strong>Why Am I Taking This Class?</strong> ~ In my business, I have primarily focused on print advertising and design i.e brochures, packaging, corporate ID etc. I've long appreciated the web and where it has gone design-wise. So...finally, I'm on this journey of attaining a Web Designer Certificate at Saddleback, to enhance my knowledge in the diverse areas that web design offers me professionally, and will enhance my capabilities, that I in turn, can offer to my clients. Technology is ever changing, growing and emerging, and I find it essential to gaining the knowledge to succeed in this area, and to put it into practice.</p>
+	<br><br><br>
+	
+	<p><strong>Why Am I Taking This Class?</strong> ~ In my business, I have primarily focused on print advertising and design i.e brochures, packaging, corporate ID etc. I've long appreciated the web and where it has gone design-wise. So...finally, I'm on this journey of attaining a Web Designer Certificate at Saddleback, to enhance my knowledge in the diverse areas that web design offers me professionally, and will enhance my capabilities, that I in turn, can offer to my clients. Technology is ever changing, growing and emerging, and I find it essential to gaining the knowledge to succeed in this area, and to put it into practice.</p> 
 	<br>
 	
 <h2>Technologies for This Class</h2>
@@ -35,12 +48,12 @@
 		
 		<li><a href="https://tympanus.net/codrops/" target="_blank">CoDrops</a> ~ Codrops is a design and development blog with articles and tutorials about the latest web tips and trends. There's a valuable "Tutorial" section for how-to's on web development techniques, a fun "Playground" for plug-ins and helpful articles, a "Blueprints" section that has sample website concepts and layouts, and an extensive CSS reference section.</li>
 	</ul>
-</div>
-					  
+	<button>Start Animation</button>
+		</div>	
 <div id="footer">
 	<p>Website design for cim45&nbsp;&nbsp;|&nbsp;&nbsp;&copy;Cathy Lambiase&nbsp;&nbsp;|&nbsp;<a href="mailto:cgardner11@saddleback.edu">cgardner11@saddleback.edu</a></p>		
 </div>	
-</div>			
+	</div>
 </body>
 </html>
 	
