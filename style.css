@@ -23,7 +23,7 @@ button {
 
 body { 
   background: url("images/forest.jpg") no-repeat center center fixed;
-	background-size: cover;
+	background-size: auto;
 }
 
 p,li {
@@ -160,4 +160,5 @@ button {
 		margin-left: 2px;
 		margin-right: 2px;
 	}
+
 }
