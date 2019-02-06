@@ -138,3 +138,16 @@ button {
 	margin: 0;
 }
  
+
+@media handheld{
+	p, li {
+		font-size: 30px;
+	}
+	h1 {
+		font-size: 4.3em;
+	}
+	h2 {
+		font-size: 44px;
+	}
+}
+
