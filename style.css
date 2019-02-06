@@ -3,7 +3,7 @@
 
 #container {
 	position: relative;
-	margin: 60px;
+	margin: 30px;
 }
 
  
@@ -23,9 +23,6 @@ button {
 
 body { 
   background: url("images/forest.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
 }
 
 p,li {
@@ -102,12 +99,13 @@ li {
 	font-weight: lighter;
 	padding-bottom: 8px;
 	overflow: scroll;
-	margin: 0;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 ul.a {
 	list-style-type: circle;
-	margin-right: 30px;
+	margin-right: 0px;
 	text-decoration: none;
 	line-height: 140%;
 }
@@ -153,6 +151,12 @@ button {
 		margin-left: 10px;
 		margin-right: 10px;
 	}
-	
+	#container {
+		margin-left: 9px;
+		margin-right: 9px;
+	}
+	li {
+		margin-left: 2px;
+		margin-right: 2px;
+	}
 }
-
