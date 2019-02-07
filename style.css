@@ -41,11 +41,8 @@ p, li {
 
 h1 {
 	color: #0871A1;
-	font-size: 2.3em;
-	padding-top: 20px;
-	padding-right: 30px;
-	padding-left: 30px;
-	padding-bottom: 10px;
+	font-size: 2.1em;
+	padding: 30px;
 	min-width: inherit;
 }
 
@@ -93,12 +90,10 @@ img {
 	background-color: white;
 	padding-bottom: 40px;
 	overflow: hidden;
-	min-width: 300px;
 }
 
 ul.a {
 	list-style-type: circle;
-	margin-right: 0px;
 	text-decoration: none;
 }
 
@@ -106,7 +101,6 @@ ul.a {
 	padding: 0px;
 	margin-right: inherit;
 	margin-bottom: inherit;
-	
 }
  
 a {
@@ -140,14 +134,15 @@ button {
 		line-height: 120%;
 	}
 	h1 {
-		font-size: 4em;
+		font-size: 3.2em;
 	}
 	h2 {
-		font-size: 44px;
+		font-size: 40px;
 	}
 	#main {
 		margin-left: 10px;
 		margin-right: 10px;
+		padding-right: 10px;
 	}
 	#container {
 		margin-left: 9px;
