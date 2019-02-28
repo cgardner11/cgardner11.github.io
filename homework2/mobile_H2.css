@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	@media only screen and (max-width:320px) {
+		div#header, div.content, div.sidebar-left, div.col-right {width: 100%;}
+		div.col-right {
+			padding-right: 15px;
+		}
+		 
+		div.sidebar-left {
+			padding-right: 20px;
+		}
+		img {
+			width: 100%;
+			padding-bottom: 20px;
+		}
+		div#footer {
+			width: 90%;}
+		 
+		h1 {
+			line-height: 1.1em;
+		}
+		.list li a {
+			font-size: 15px;
+		}
+	}
+
+	@media only screen and (min-width:360px) and (max-width: 500px) {
+		div#header, div.content, div.sidebar-left, div.col-right {width: 100%;}
+		div.col-right {
+			padding-right: 15px;}
+		div.sidebar-left {
+			padding-right: 20px;
+		}
+		img {
+			width: 100%;
+			padding-bottom: 20px;
+		}
+		div#footer {
+			width: auto;}
+		
+		h1 {
+			line-height: 1.1em;
+		}
+	}
+	@media only screen and (min-width:411px) {
+		div#header, div.content, div.sidebar-left, div.col-right {width: 100%;}
+		div.col-right {
+			padding-right: 15px;}
+		div.sidebar-left {
+			padding-right: 20px;
+		}
+		.list li a {
+			font-size: 15px;
+		}
+		img {
+			width: 100%;
+			padding-bottom: 20px;
+		}
+		div#footer {
+			width: auto;}
+		
+		h1 {
+			line-height: 1.1em;
+		}
+	}
+	@media only screen and (min-width:768px) and (max-width: 1224px) {
+	div#header, div.content {width: 90%;}		
+		div.col-right {
+			padding-right: 15px;
+			width: 60%;
+		}
+		 
+		div.sidebar-left {
+			padding-right: 20px;
+			width: 30%;
+		}
+		img {
+			width: 53vw;
+			padding-bottom: 20px;
+			float: left;
+			padding-right: 20px;
+		}
+		div#footer {
+			width: 90%;}
+		 
+		h1 {
+			line-height: 1.1em;
+		}}
+	@media only screen and (min-width:769px) and (max-width: 3720px) {
+	div#header, div.content {width: 80%;}		
+		div.col-right {
+			padding-right: 15px;
+			width: 70%;
+		}
+		 
+		div.sidebar-left {
+			padding-right: 20px;
+			width: 30%;
+		}
+		img {
+			width: 30vw;
+			padding-bottom: 20px;
+			float: left;
+			padding-right: 20px;
+		}
+		div#footer {
+			width: 80%;}
+		 
+		h1 {
+			line-height: 1.1em;
+			font-size: 53px;
+			}
+	.list li a {
+			font-size: 18px;
+		}}
