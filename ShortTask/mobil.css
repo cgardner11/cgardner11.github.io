@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@media only screen and (max-width: 320px) {
+.w3-container {
+		margin: auto;
+		padding: 10px;
+		display: block;
+	}
+	h1 {
+		font-family: 'Archivo', sans-serif;
+		font-size: 2rem;
+		color: #107897;
+	}
+	p, dd {
+		font-family: 'Archivo', sans-serif;
+		font-size: 1rem;
+		line-height: 1.3rem;
+		color: #534E4F;	}
+	
+	
+	dt {
+		font-family: 'Archivo', sans-serif;
+		font-size: 1.4rem;
+		line-height: 2rem;
+		width: 70%;
+		color: #97C7C1;
+		padding-right: 10px;	
+	
+	}}
+
+@media only screen and (min-width:360px) and (max-width: 500px) {
+	.w3-container {
+		margin: auto;
+		padding: 10px;
+		display: block;
+	}
+	h1 {
+		font-family: 'Archivo', sans-serif;
+		font-size: 2rem;
+		color: #107897;
+	}
+	p, dd {
+		font-family: 'Archivo', sans-serif;
+		font-size: 1rem;
+		line-height: 1.3rem;
+		color: #534E4F;	}
+	
+	
+	dt {
+		font-family: 'Archivo', sans-serif;
+		font-size: 1.4rem;
+		line-height: 2rem;
+		width: 70%;
+		color: #97C7C1;
+		padding-right: 10px;	
+}
+	}
+
+@media only screen and (min-width:411px) {
+	.w3-container {
+		margin: auto;
+		padding: 10px;
+		display: block;
+	}
+	h1 {
+		font-family: 'Archivo', sans-serif;
+		font-size: 2rem;
+		color: #107897;
+	}
+	p, dd {
+		font-family: 'Archivo', sans-serif;
+		font-size: 1rem;
+		line-height: 1.3rem;
+		color: #534E4F;	}
+	
+	
+	dt {
+		font-family: 'Archivo', sans-serif;
+		font-size: 1.4rem;
+		line-height: 2rem;
+		width: 70%;
+		color: #97C7C1;
+		padding-right: 10px;	
+	}}
+	
